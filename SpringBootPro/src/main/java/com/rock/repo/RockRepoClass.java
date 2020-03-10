@@ -1,13 +1,14 @@
 package com.rock.repo;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component(value = "repo-class-1")
 public class RockRepoClass implements RockRepo {
 
 	@Override
 	public String something() {
-		return "interface autowired";
+		return "interface autowired - RockRepoClass";
 	}
 
 }
+		
