@@ -1,7 +1,7 @@
 JPOP Assignment
 
 Tech stack used:
-Springboot,
+Springboot, Spring cloud 
 Swagger API,
 Flyway,
 PostgreSQL,
